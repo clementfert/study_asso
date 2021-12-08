@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mon association boxe</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">_
+
+  
+</head>
+
+  <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">ASSO BOXE</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#scrollspyHeading1">qui somme nous?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#scrollspyHeading2">emploie du temp</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#scrollspyHeading3">s'inscrire</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <main class="container">
+            <div class="bg-light p-5 rounded text-wrap">
+
+                <div data-bs-spy="scroll" data-bs-target="#navbar-example2">
+        
+                <div class="introduction"> 
+                    <h4 id="scrollspyHeading1">Qui somme nous?</h4>
+
+                    <img src="Clay-Liston-750x368.jpg" class="img-fluid" alt="...">
+
+                    <p >Bienvenue sur le site officiel de notre association de boxe qui à été creéer le 8 decembre 2021 en colaboration avec la mairie de montreuil.
+                      le bute de cette association est de permetre a tous le monde de pratiquer ce sport et de transmettre les valeur du noble art. </p>
+                </div>
+        
+                <div class="time-table">
+                    <h4 id="scrollspyHeading2">emploie du temp</h4>
+                    <table class="table">
+                      <thead class="thead-dark">
+                        <tr>
+                          <th scope="col">heurs</th>
+                          <th scope="col">lundi</th>
+                          <th scope="col">mardi</th>
+                          <th scope="col">mercredi</th>
+                          <th scope="col">jeudi</th>
+                          <th scope="col">vendredi</th>
+                          <th scope="col">samedi</th>
+                          <th scope="col">dimanche</th>
+                          
+
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">8-14h</th>
+                          <td>pas de leçon la matiné</td>
+                          <td>pas de leçon la matiné</td>
+                          <td>pas de leçon la matiné</td>
+                          <td>pas de leçon la matiné</td>
+                          <td>pas de leçon la matiné</td>
+                          <td>pas de leçon la matiné</td>
+                          <td>pas de leçon la matiné</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">14-17h</th>
+                          <td>pas de leçon </td>
+                          <td>pas de leçon </td>
+                          <td class="bg-warning">leçon enfants </td>
+                          <td>pas de leçon </td>
+                          <td>pas de leçon </td>
+                          <td>pas de leçon </td>
+                          <td>pas de leçon </td>
+
+                        </tr>
+                        <tr>
+                          <th scope="row">17-19h</th>
+                          <td class="bg-success">leçon ados</td>
+                          <td class="bg-success">leçon ados</td>
+                          <td class="bg-success">leçon ados</td>
+                          <td class="bg-success">leçon ados</td>
+                          <td class="bg-success">leçon ados</td>
+                          <td class="bg-danger">compétition ados</td> 
+                          <td>pas de leçon </td>
+
+                        </tr>
+                        <tr>
+                          <th scope="row">19-21h</th>
+                          <td class="bg-primary">leçon adulte</td>
+                          <td class="bg-primary">leçon adulte</td>
+                          <td class="bg-primary">leçon adulte</td>
+                          <td class="bg-primary">leçon adulte</td>
+                          <td class="bg-primary">leçon adulte</td>
+                          <td>pas de leçon </td>
+                          <td class="bg-danger">compétition adulte</td> 
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row">21h-8h</th>
+                          <td class="table-dark">fermé</td>
+                          <td class="table-dark">fermé</td>
+                          <td class="table-dark">fermé</td>
+                          <td class="table-dark">fermé</td>
+                          <td class="table-dark">fermé</td>
+                          <td class="table-dark">fermé</td>
+                          <td class="table-dark">fermé</td>
+
+                          
+                        </tr>
+                      </tbody>
+                    </table>
+                    
+                    <p>...</p>
+                </div>
+        
+                <div class=" col-md-7 col-lg-8 ">
+                    <h4 id="scrollspyHeading3">s'inscrire</h4>
+                    <form action="inscription.php" method="post">
+                      <fieldset>
+                          <legend>Informations de connexion</legend>
+                          <label for="email">Adresse e-mail</label>
+                          <input type="email" name="email" id="email" required placeholder="Votre adresse e-mail">
+                  
+                          <label for="password">Mot de passe</label>
+                          <input type="password" name="password" id="password" required placeholder="Votre mot de passe">
+                  
+                          <label for="picture">Photo de profil</label>
+                          <input type="file" name="picture" id="picture" required>
+                      </fieldset>
+                      <fieldset>
+                          <legend>Civilité</legend>
+                          <div>
+                              <input type="radio" id="Mr" name="civilite" value="Mr">
+                              <label for="Mr" class="inline-label">Monsieur</label>
+                          </div>
+                          <div>
+                              <input type="radio" id="Mme" name="civilite" value="Mme">
+                              <label for="Mme" class="inline-label">Madame</label>
+                          </div>
+                          <label for="firstName">Prénom</label>
+                          <input type="text" name="firstName" id="firstName" required placeholder="Votre prénom">
+                  
+                          <label for="lastName">Nom</label>
+                          <input type="text" name="lastName" id="lastName" required placeholder="Votre nom">
+                  
+                          <label for="birthDate">Date de naissance</label>
+                          <input type="date" name="birthDate" id="birthDate">
+                  
+                          <label for="phoneNumber">Numéro de téléphone</label>
+                          <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Votre numéro de téléphone">
+                      </fieldset>
+                      <fieldset>
+                          <legend>Adresse</legend>
+                          <label for="city">Ville</label>
+                          <input type="text" name="city" id="city" placeholder="Votre ville">
+                  
+                          <label for="zipCode">Code postal</label>
+                          <input type="number" name="zipCode" id="zipCode" placeholder="Votre code postal">
+                  
+                          <label for="address">Adresse</label>
+                          <textarea name="address" id="address" cols="30" rows="10" placeholder="Votre adresse"></textarea>
+                      </fieldset>
+                      <fieldset>
+                          <legend>Jeux de société</legend>
+                          <label for="games">Jeux de société favoris</label>
+                          <select name="games" id="games" multiple>
+                              <option value="tarot">Tarot</option>
+                              <option value="echecs">Echecs</option>
+                              <option value="dames">Dames</option>
+                              <option value="bataille-navale">Bataille navale</option>
+                              <option value="petits-chevaux"> Petits-chevaux</option>
+                              <option value="poker">Poker</option>
+                          </select>
+                      </fieldset>
+                      <fieldset>
+                          <legend>Parrainage</legend>
+                          <label for="sponsor">Parrain</label>
+                          <select name="sponsor" id="sponsor">
+                              <option value="">Indiquez le prénom de votre parrain</option>
+                              <option value="Laure">Laure</option>
+                              <option value="Adam">Adam</option>
+                              <option value="Chloé">Chloé</option>
+                              <option value="Jules">Jules</option>
+                              <option value="Camille">Camille</option>
+                              <option value="Raphaël">Raphaël</option>
+                          </select>
+                      </fieldset>
+                      <fieldset>
+                          <legend>Newsletter</legend>
+                          <input type="checkbox" name="newsletter" id="newsletter">
+                          <label for="newsletter" class="inline-label">J'accepte de recevoir la newsletter</label>
+                      </fieldset>
+                      <button type="submit">Je souhaite m'inscrire</button>
+                  </form>
+                    <p>...</p>
+                </div>
+        
+              <div>
+                
+            
+            
+          </main>
+
+  
+
+
+    
+
+
+
+
+    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </body>
+</html>
